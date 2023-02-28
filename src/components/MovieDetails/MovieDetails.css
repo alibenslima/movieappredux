@@ -1,0 +1,68 @@
+.part1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 75%;
+  align-items: center;
+  padding: 30px;
+}
+.details {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: xx-large;
+}
+.details h1 {
+  font-weight: 700;
+  font-style: oblique;
+  text-decoration: solid;
+  text-shadow: 4px 2px 2px #807373;
+}
+.movimage {
+  border: solid 2px;
+  color: white;
+  border-radius: 15px;
+  height: "400px";
+}
+.vid {
+  border: solid 2px;
+  color: white;
+  border-radius: 15px;
+}
+
+.stars {
+  border: solid 2px white;
+  border-radius: 15px;
+
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: rgb(22, 22, 22);
+}
+
+.description {
+  width: 70%;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: #696e6d;
+  box-shadow: 3px 3px 3px 3px #8b8c97;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.description h2 {
+  color: #410606;
+  font-weight: 700;
+  text-decoration: underline;
+}

@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.waviy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 8vh;
+  position: relative;
+  margin-left: -200px;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  height: 80px;
+  width: 100%;
+}
+.searchbar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: -200px;
+  height: 80px;
+  width: 325px;
+}
